@@ -10,7 +10,7 @@ jobs:
     name: repo
     runs-on: ubuntu-latest
     steps: 
-      - run:  curl -v -X POST https://${{ secrets.SONAR_TOKEN }}@sonarcloud.io/api/projects/create -d "name=anand4nc_sonarcloud-github-action-samples&project=anand4nc_sonarcloud-github-action-samples&organization=anand4nc"
+      - run:  curl -v -X POST https://${{ secrets.SONAR_TOKEN }}@sonarcloud.io/api/projects/create -d "name=sonarcloud-feature&project=sonarcloud-feature&organization=anand4nc"
   sonarcloud:
     name: SonarCloud
     runs-on: windows-latest
