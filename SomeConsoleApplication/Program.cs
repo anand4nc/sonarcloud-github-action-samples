@@ -11,6 +11,7 @@ namespace SomeConsoleApplication
                 Console.WriteLine("true");
             }
             else
+                else
             {
                 Console.WriteLine("false");
             }
