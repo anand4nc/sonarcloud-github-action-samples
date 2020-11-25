@@ -7,7 +7,7 @@ namespace SomeConsoleApplication
         {
             var iAmTrue = true;
             if (iAmTrue)
-            
+            {
                 Console.WriteLine("true");
             }
             else
