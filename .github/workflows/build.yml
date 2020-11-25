@@ -13,7 +13,7 @@ jobs:
       - run:  curl -v -X POST https://${{ secrets.SONAR_ROOT_TOKEN }}@sonarcloud.io/api/projects/create -d "name=sonarcloud-feature&project=sonarcloud-feature&organization=anand4nc"
   sonarcloud:
     name: SonarCloud
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Install JDK11.0
         uses: actions/setup-java@v1
