@@ -9,7 +9,7 @@ namespace SomeConsoleApplication
             if (iAmTrue)
             {
                 Console.WriteLine("true");
-                Console.WriteLine("Anand")
+                Console.WriteLine("Anand");
             }
             else
                
